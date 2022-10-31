@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+const Cards = () => {
   return (
     <div>
-      Header
+      Cards
     </div>
   )
 }
 
-export default Header
+export default Cards
