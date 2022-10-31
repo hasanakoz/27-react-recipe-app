@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Nav = styled(Flex)`
   padding: 1rem 1.5rem;
+  background-color: ${({ theme }) => theme.colors.navbarBgColor};
 `;
 
 export const Brand = styled(Link)`
