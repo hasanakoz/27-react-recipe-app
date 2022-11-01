@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.style";
 import { Brand, Nav, Menu, MenuLink, Hamburger } from "./Navbar.style";
 import { GiHamburgerMenu } from "react-icons/gi";
