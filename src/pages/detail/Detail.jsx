@@ -12,6 +12,7 @@ import diet from "../../assets/diet.svg";
 
 const Detail = () => {
   const { state } = useLocation();
+  console.log(state);
   return (
     <DetailContainer>
       <HeaderContainer>

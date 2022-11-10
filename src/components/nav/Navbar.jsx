@@ -1,8 +1,9 @@
 import React from "react";
 import "./Navbar.style";
-import { Brand, Nav, Menu, MenuLink, Hamburger } from "./Navbar.style";
+import { Brand, Nav, Menu, MenuLink, Hamburger, Img } from "./Navbar.style";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import logo from "../../assets/logo2.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <Nav justify="space-between" wrap="wrap">
       <Brand to="/">
-        <i>{"h1 />"}</i>
+        <Img src={logo} alt="" width="90px" />
         <span>Recipe</span>
       </Brand>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
@@ -21,7 +22,12 @@ const Navbar = () => {
         <MenuLink to="/">Home</MenuLink>
         <MenuLink to="about">About</MenuLink>
         <MenuLink to="register">Register</MenuLink>
-        <MenuLink to="logout" onClick={() => sessionStorage.clear()}>
+        <MenuLink
+          to="logout"
+          onClick={() => {
+            sessionStorage.clear();
+          }}
+        >
           Logout
         </MenuLink>
       </Menu>

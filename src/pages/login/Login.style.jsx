@@ -13,14 +13,14 @@ export const FormContainer = styled(Flex)`
   width: 40rem;
   height: 40rem;
   max-width: 50rem;
-  background: rgba(0, 173, 181, 0.5);
+  background: rgba(248, 246, 117, 0.5);
   border-radius: 50%;
   border: 2px solid #e1f1dd;
   padding: 0.5rem;
   flex-direction: column;
 `;
 export const Header = styled.h1`
-  color: white;
+  color: #048f1b;
   font-size: 3rem;
 `;
 
@@ -52,9 +52,15 @@ export const StyledButton = styled.button`
   &:hover {
     opacity: 0.8;
   }
+  &:active {
+    transform: scale(0.8);
+  }
 `;
 
 export const StyledImg = styled.img`
   width: 150px;
+  height: 130px;
   margin: 1rem;
+  opacity: 0.8;
+  border-radius: 20px;
 `;

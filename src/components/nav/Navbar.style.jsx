@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Nav = styled(Flex)`
-  padding: 1rem 1.5rem;
+  padding: 0.1rem 1.5rem;
   background-color: ${({ theme }) => theme.colors.navbarBgColor};
 `;
 
@@ -40,6 +40,7 @@ export const MenuLink = styled(Link)`
     font-weight: bold;
   }
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
+    width: 100%;
     border-bottom: 2px solid ${({ theme }) => theme.colors.mainColor};
   }
 `;
@@ -52,6 +53,12 @@ export const Hamburger = styled.div`
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
     display: block;
   }
+`;
+
+export const Img = styled.img`
+  opacity: 0.8;
+  border-radius: 10px;
+  margin-right: 1rem;
 `;
 
 export default Nav;

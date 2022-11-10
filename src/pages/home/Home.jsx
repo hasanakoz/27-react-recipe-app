@@ -7,9 +7,9 @@ import homeSvg from "../../assets/home.svg";
 import Cards from "../../components/cards/Cards";
 
 const Home = () => {
-  const APP_ID = "c4acf24f";
-  const APP_KEY = "9c86a01183dd15a90b53515628679739";
-  const [query, setQuery] = useState("egg");
+  const APP_ID = process.env.REACT_APP_APP_ID;
+  const APP_KEY = process.env.REACT_APP_APP_KEY;
+  const [query, setQuery] = useState("");
   const [selectedMeal, setSelectedMeal] = useState("breakfast");
   const [recipes, setRecipes] = useState("");
   const mealType = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
