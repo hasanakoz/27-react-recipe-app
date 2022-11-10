@@ -11,7 +11,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import meal from "../../assets/meal.png";
 
-const Login = () => {
+const Login = ({ setUser }) => {
   const navigate = useNavigate();
 
   const userInfo = {
@@ -21,6 +21,7 @@ const Login = () => {
     e.preventDefault();
     sessionStorage.setItem("user", JSON.stringify(userInfo));
     navigate(-1);
+    setUser(true);
   };
   return (
     <LoginContainer>
