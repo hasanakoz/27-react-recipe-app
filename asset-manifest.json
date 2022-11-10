@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/27-react-recipe-app/static/css/main.073c9b0a.css",
+    "main.js": "/27-react-recipe-app/static/js/main.d19307b2.js",
+    "static/js/787.f37146bb.chunk.js": "/27-react-recipe-app/static/js/787.f37146bb.chunk.js",
+    "static/media/home.svg": "/27-react-recipe-app/static/media/home.1df754a91058b06a083c263a0a25979e.svg",
+    "static/media/logo2.jpg": "/27-react-recipe-app/static/media/logo2.24dfcd156b0ef657b46a.jpg",
+    "static/media/meal.png": "/27-react-recipe-app/static/media/meal.bc5608984baa7e24a57b.png",
+    "static/media/default-image.jpg": "/27-react-recipe-app/static/media/default-image.b0a1da719f55a04fc8b8.jpg",
+    "static/media/diet.svg": "/27-react-recipe-app/static/media/diet.2f19967bdde3fbb1cbb98812d8f74cb2.svg",
+    "index.html": "/27-react-recipe-app/index.html",
+    "main.073c9b0a.css.map": "/27-react-recipe-app/static/css/main.073c9b0a.css.map",
+    "main.d19307b2.js.map": "/27-react-recipe-app/static/js/main.d19307b2.js.map",
+    "787.f37146bb.chunk.js.map": "/27-react-recipe-app/static/js/787.f37146bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d19307b2.js"
+  ]
+}
